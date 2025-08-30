@@ -4,23 +4,16 @@ Codes for "OptNet-Embedded Data-Driven Approach for Optimal Power Flow Proxy"
 
 Authors: Yixiong Jia, Yiqin Su, Chenxi Wang, and Yi Wang.
 
-## Requirements
-Python version: 3.8.10
-
-The must-have packages can be installed by running
-```
-pip install requirements.txt
-```
 
 ### Data
-All the data this paper used can be found in ```4 Bus System/Data``` and ```14 Bus System/Data```. 
+All the data this paper used can be found in ```4 Bus System/Data``` and ```OPTNET/Data```. 
 
-You can also find the code for processing the data in ```4 Bus System/Data Generate``` and ```14 Bus System/Data Generate```.
+You can also find the code for processing the data in ```4 Bus System/Data Generate``` and ```Data Generate 14```.
 
 ### Reproduction
-If you want to run the proposed approach and get the results comparison, you can run ```Test Compare```.
+If you want to run the proposed approach and get the results comparison, you can run ```Results_Show``` in NN-14/NN_ALM-14/DC3-14/OPTNET.
 
-Currently, I'm tidying up the code to make it more readable! This repository will be updated recently.
+```Model_Compare``` in OPTNET can be used to obtain OPF solutions solved by the pruned model.
 
 ## Citation
 ```
